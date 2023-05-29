@@ -8,13 +8,18 @@ import Toprated from './TopRatedCourses/Toprated'
 
 export default function Home() {
   return (
+    <>
+    <h2>Online Eductaion platform</h2>
     <div className='App'>
+      
     <Coursecard/>
     <Coursedetails/>
     <Featuredcourses/>
     <Recentlyadded/>
     <Toprated/>
-    
     </div>
+    </>
+    
+    
   )
 }
