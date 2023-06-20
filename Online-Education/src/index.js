@@ -1,12 +1,13 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import App from "./Components/HomePage/Home";
-import Home from "./Components/HomePage/Home";
+//import App from "./Components/HomePage/Home";
+//import Home from "./Components/HomePage/Home";
+import Main from "./ExpenseTracker/Main"
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <Home/>
+    <Main/>
   </React.StrictMode>
 );
 
