@@ -1,9 +1,5 @@
 import React from 'react'
+import { createContext } from 'react'
+import { useReducer } from 'react'
 
-function Globalstate() {
-  return (
-    <div>Globalstate</div>
-  )
-}
 
-export default Globalstate
